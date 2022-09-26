@@ -1,0 +1,14 @@
+@media (min-width: 1024px) {
+   .jumbotron .container{
+        flex-direction: row;
+        justify-content: center;
+   }
+
+   .jumbotron .container > *{
+        width: calc(90% / 2);
+   }
+
+   .benefits .card{
+    width: calc(100% / 3);
+}
+}
