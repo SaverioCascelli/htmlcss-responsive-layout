@@ -32,6 +32,12 @@
     /* /get app */
 
 
+    /* jumbotron */
+
+    .jumbotron .container{
+        flex-direction: row;
+    }
+
     /* benefits */
     .benefits .cards{
         display: flex;
