@@ -42,6 +42,12 @@ footer{
     padding: 10px;
     color: black;
 }
+
+.button{
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
 /* /link */
 
 /* tools */
@@ -142,9 +148,6 @@ header .menu ul{
     background-color: rgb(0, 132, 253);
     color: white;
     width: 210px;
-    border-radius: 20px;
-    text-align: center;
-    padding: 10px;
 }
 
 .get-app .card .text{
@@ -220,7 +223,18 @@ main .container{
     margin-top: 90px;
     margin-bottom: 60px;
     font-size   : 2rem;
-   }
+}
+
+.jumbotron .button{
+    background-color: rgb(151, 146, 228);
+    padding: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: rgb(85, 26, 139);
+    margin: 0 auto;
+}
 
 /* testimonials */
 
