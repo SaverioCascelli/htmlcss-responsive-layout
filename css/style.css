@@ -8,6 +8,14 @@ img{
     width: 100%;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main > *{
+    margin: 50px 0;
+}
+
 
 
 footer{
@@ -19,6 +27,17 @@ footer{
     border-radius: 20px;
 }
 /* card */
+
+/* link */
+
+.link{
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    color: black;
+}
+/* /link */
 
 /* tools */
 .debug{
@@ -38,6 +57,12 @@ footer{
 }
 
 /* header */
+header{
+    background-color: rgb(0, 132, 253);
+    color: white;
+    font-size: 16px;
+}
+
 header .container{
     height: 100%;
     justify-content: space-between;  
@@ -55,11 +80,12 @@ header .logo{
 
 
 header .burgher i{
-    font-size: 20px;
+    font-size: 26px;
 }
 
 header .menu{
     display: none;
+    font-weight:300;
 }
 
 header .menu ul{
@@ -71,7 +97,9 @@ header .menu ul{
     padding: 0 1rem;
 }
 
+.menu li a{
 
+}
 /* /header */
 
 /* main */
