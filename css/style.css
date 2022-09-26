@@ -12,6 +12,7 @@ header{
     height: 75px;
 }
 
+
 footer{
     height: 250px;
 }
@@ -55,7 +56,33 @@ main .card{
 main .container{
     display: flex;
     flex-direction: column;
-    padding: 2rem 0;
+}
+
+/* jumbotron */
+.jumbotron .strategic-planning{
+    height: 100px;
+}
+
+/* testimonials */
+
+.testimonial-top{
+    height: 100px;
+}
+
+/* benefits */
+
+.benefits-top{
+    height: 100px;
+}
+
+/* about-us */
+
+.us-text{
+    height: 100px;
+}
+
+.us-img{
+    height: 100px;
 }
 
 /* /main */
