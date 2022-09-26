@@ -111,6 +111,14 @@ header .menu ul{
 
 .get-app .card{
     background-color: rgb(181, 221, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.get-app .card > *{
+    margin-top: 30px;
 }
 
 .get-app .card h3{
@@ -154,19 +162,21 @@ header .menu ul{
 }
 
 .get-app .card .img img{
-    display: block;
-    height: 100%;
+    max-height: 100%;
     position: absolute;
     bottom: 0;
     object-fit: contain;
 }
 
 .get-app .card:first-child{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
     padding-bottom: 0;
 }
+
+.get-app .card > i{
+    font-size: 80px;
+    color: rgb(0, 132, 253);
+}
+
 
 
 main .container{

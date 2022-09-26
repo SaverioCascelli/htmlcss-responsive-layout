@@ -28,6 +28,7 @@
     }
 
     .get-app .card .img img{
+        height: 100%;
         position: absolute;
         bottom: 0;
         object-fit: cover;

@@ -8,10 +8,11 @@
     main .get-app .cards{
         display: flex;
         flex-flow: row wrap;
+        justify-content: space-between;;
     }
 
     .get-app .card{
-        width: calc(100% / 3);
+        width: calc(100% / 3 - 25px);
     }
 
     .get-app .get-link{
@@ -26,7 +27,7 @@
     }
 
     .get-app .cards .card:first-child{
-        width: calc(100% / 3 * 2);
+        width: calc(100% / 3 * 2 - 25px / 2);
     }
     /* /get app */
 
