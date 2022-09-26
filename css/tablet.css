@@ -1,4 +1,8 @@
 @media (min-width: 768px) {
+
+    .card .p{
+        font-size: 1rem;
+    }
     
     /* get app */
     main .get-app .cards{
@@ -8,6 +12,17 @@
 
     .get-app .card{
         width: calc(100% / 3);
+    }
+
+    .get-app .get-link{
+        width: 60%;
+    }
+    .get-app .card .img{
+        align-self:auto;
+        max-width: 200px;
+    }
+    .get-app .card .img img{
+        object-fit: fill;
     }
 
     .get-app .cards .card:first-child{

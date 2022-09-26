@@ -12,6 +12,31 @@
         display: flex;
     }
 
+    .get-app .card{
+        height: 350px;
+    }
+
+    .get-app .card:first-child{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .get-app .card .img{
+        height: 100%;
+        width: 50%;
+        position: relative;
+    }
+
+    .get-app .card .img img{
+        position: absolute;
+        bottom: 0;
+        object-fit: cover;
+    }
+
+    .get-app .card .text,.get-link{
+        width: 50%;
+    }
+
    .jumbotron .container{
         flex-direction: row;
         justify-content: center;

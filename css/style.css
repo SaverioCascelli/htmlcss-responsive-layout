@@ -25,6 +25,11 @@ footer{
 /* card */
 .card{
     border-radius: 20px;
+    padding:2rem;
+}
+
+.card .p{
+    font-size: .8rem;
 }
 /* card */
 
@@ -45,7 +50,7 @@ footer{
     border: 1px solid green;
 }
 
-.center-in{
+.center-it{
     text-align: center;
 }
 /* /tools */
@@ -104,9 +109,65 @@ header .menu ul{
 
 /* main */
 
-main .card{
-    height: 100px
+.get-app .card{
+    background-color: rgb(181, 221, 255);
 }
+
+.get-app .card h3{
+    color: rgb(0, 132, 253);
+}
+
+.get-app .card p{
+    color: rgb(90, 110, 127);
+    font-weight: bold;
+}
+
+.get-app .card a{
+    text-decoration: none;
+}
+
+.get-app .card a div{
+    background-color: rgb(0, 132, 253);
+    color: white;
+    width: 80%;
+    max-width: 220px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.get-app .get-link{
+    width: 80%;
+}
+
+.get-app .card .text{
+    margin-bottom: 30px;
+}
+
+.get-app .card .img{
+    margin-top: 30px;
+    height: 270px;
+    width: 80%;
+    align-self: center;
+    padding:5px 5px 0px 5px;
+    position: relative;
+}
+
+.get-app .card .img img{
+    display: block;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    object-fit: contain;
+}
+
+.get-app .card:first-child{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+
 
 main .container{
     display: flex;
