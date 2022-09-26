@@ -1,0 +1,43 @@
+@media (min-width: 810px) {
+    
+    /* get app */
+    main .get-app .cards{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .get-app .card{
+        width: calc(100% / 3);
+    }
+
+    .get-app .cards .card:first-child{
+        width: calc(100% / 3 * 2);
+    }
+    /* /get app */
+
+
+    /* benefits */
+    .benefits .cards{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .benefits .card{
+        width: calc(100% / 2);
+    }
+    /* /benefits */
+
+    /* about-us */
+    
+    .about-us .container{
+        flex-direction: row;
+    }
+    .about-us .us-text{
+        width: calc(100% / 3 * 2);
+    }
+    .about-us .us-img{
+        width: calc(100% / 3);
+    }
+
+    /* /about-us */
+}
