@@ -12,32 +12,29 @@
         display: flex;
     }
 
+/* get-app */
+
     .get-app .card{
         height: 350px;
     }
 
     .get-app .card:first-child{
-        flex-wrap: wrap;
-        justify-content: flex-start;
+        flex-wrap: wrap;    
+    }
+
+    .get-app .card:first-child .text{
+        width: 50%;
     }
 
     .get-app .card .img{
         height: 100%;
-        width: 50%;
-        position: relative;
     }
 
     .get-app .card .img img{
-        height: 100%;
-        position: absolute;
-        bottom: 0;
-        object-fit: cover;
+        height: 90%;
     }
 
-    .get-app .card .text,.get-link{
-        width: 6    0%;
-    }
-
+/* jumbotron */
    .jumbotron .container{
         width: 900px;
         margin: 0 auto;

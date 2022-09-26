@@ -15,12 +15,13 @@
         width: calc(100% / 3 - 25px);
     }
 
-    .get-app .get-link{
-        width: 60%;
+    .get-app .card a .button{
+        width: 220px;
+        margin-bottom: 30px;
     }
     .get-app .card .img{
         align-self:auto;
-        max-width: 200px;
+        max-width: 250px;
     }
     .get-app .card .img img{
         object-fit: fill;

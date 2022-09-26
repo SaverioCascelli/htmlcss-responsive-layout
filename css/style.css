@@ -113,12 +113,11 @@ header .menu ul{
     background-color: rgb(181, 221, 255);
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-bottom: 25px;
 }
 
-.get-app .card > *{
-    margin-top: 30px;
+.get-app .card:not(:first-child){
+    text-align: center;
 }
 
 .get-app .card h3{
@@ -135,18 +134,17 @@ header .menu ul{
     text-decoration: none;
 }
 
-.get-app .card a div{
+.get-app .card .get-link{
+
+}
+
+.get-app .card a .button{
     background-color: rgb(0, 132, 253);
     color: white;
-    width: 80%;
-    max-width: 220px;
+    width: 210px;
     border-radius: 20px;
     text-align: center;
     padding: 10px;
-}
-
-.get-app .get-link{
-    width: 80%;
 }
 
 .get-app .card .text{
@@ -154,11 +152,9 @@ header .menu ul{
 }
 
 .get-app .card .img{
-    margin-top: 30px;
     height: 270px;
-    width: 80%;
+    width: 100% ;
     align-self: center;
-    padding:5px 5px 0px 5px;
     position: relative;
 }
 
@@ -172,6 +168,8 @@ header .menu ul{
 .get-app .card:first-child{
     padding-bottom: 0;
 }
+
+
 
 .get-app .card > i{
     font-size: 80px;
