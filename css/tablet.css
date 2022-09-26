@@ -38,6 +38,21 @@
         flex-direction: row;
     }
 
+    /* testimonial */
+
+    .testimonials .card{
+        flex-direction: row;
+    }
+
+    
+    .testimonials .card .text{
+        padding-left: 30px;
+    }
+    
+    .testimonials .card .text h4{
+        text-align: left;
+    }
+
     /* benefits */
     .benefits .cards{
         display: flex;
