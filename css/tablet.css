@@ -72,9 +72,20 @@
     }
     .about-us .us-text{
         width: calc(100% / 3 * 2);
+        padding-right: 90px;
+    }
+
+    .about-us h2{
+        font-size: 60px;
     }
     .about-us .us-img{
         width: calc(100% / 3);
+    }
+
+    
+
+    .us-img img{
+        width: 240px;
     }
 
     /* /about-us */

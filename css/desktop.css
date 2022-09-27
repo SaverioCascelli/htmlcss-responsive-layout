@@ -65,7 +65,26 @@
 
    /* benefits */
 
+   
+
    .benefits .card{
     width: calc(100% / 3 - 60px / 3);
     }
+
+    /* about-us */
+
+    .about-us .container{
+        width: 70%;
+        max-width: 1050px;
+    }
+
+    .us-img h3{
+        width: 260px;
+    }
+
+    .us-img .img span{
+        font-size: 60px;
+    }
+   
+
 }

@@ -340,13 +340,50 @@ main .container{
 }
 
 /* about-us */
-
-.us-text{
-    height: 100px;
+.us-text h2{
+    font-size: 45px;
+    color: rgb(91, 88, 137);
 }
 
-.us-img{
-    height: 100px;
+.us-text p{
+    line-height: 2rem;
+}
+.us-text > *{
+    padding-bottom: 50px;
+}
+
+.us-img .img{
+    position: relative;
+    display: inline-block;
+}
+
+.us-img > *{
+    margin-bottom: 30px;
+}
+
+.us-img .img span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: rgb(151, 146, 228);
+    font-size: 50px;
+}
+
+.us-img h3{
+    color: rgb(151, 146, 228);
+    font-size: 25px;
+}
+
+.us-img img{
+    border-radius: 50%;
+    width: 180px;
+}
+
+.us-img .button{
+    background-color:rgb(151, 146, 228) ;
+    width: 190px;
+    height: 35px;
+    color: white;
 }
 
 /* /main */
