@@ -63,7 +63,9 @@
     
    }
 
+   /* benefits */
+
    .benefits .card{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 60px / 3);
     }
 }

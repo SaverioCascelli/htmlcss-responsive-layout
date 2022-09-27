@@ -46,7 +46,7 @@
 
     
     .testimonials .card .text{
-        padding-left: 30px;
+        padding-left: 30px 30px;
     }
     
     .testimonials .card .text h4{
@@ -54,13 +54,14 @@
     }
 
     /* benefits */
+    
+
     .benefits .cards{
-        display: flex;
         flex-flow: row wrap;
     }
 
     .benefits .card{
-        width: calc(100% / 2);
+        width: calc(100% / 2 - 15px);
     }
     /* /benefits */
 
